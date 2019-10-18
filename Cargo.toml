@@ -1,0 +1,12 @@
+[package]
+name = "headtwitch"
+version = "0.1.0"
+authors = ["Kenan Sulayman <kenan@sly.mn>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+biquad = "0.3.0"
+sample = "0.10.0"
+smoothed_z_score = "0.1.3"
